@@ -1,0 +1,91 @@
+/* GENERAL */
+
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+
+.container {
+  max-width: 80vw;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat", sans-serif;
+}
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+/* MAIN */
+main > button {
+  all: unset;
+  margin-top: 30px;
+  background-color: #5c48d3;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+section {
+  padding: 50px;
+  background-color: lightgray;
+  border-radius: 10px;
+}
+
+section > div {
+  display: flex;
+}
+
+section > div > p {
+  line-height: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 35vw;
+}
+
+form > button {
+  height: 50px;
+  border-radius: 5px;
+  border: none;
+  background-color: #5c48d3;
+  padding: 15px 0;
+  color: white;
+  font-weight: bold;
+}
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+form > p {
+  margin-bottom: 10px;
+}
+
+input {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 5px;
+  height: 4vh;
+  font-size: 18px;
+}
+
+.error {
+  border: 2px solid red;
+}
+
+/* FOOTER */
+footer {
+  height: 10vh;
+  margin-top: 50px;
+}
+
+footer > p > span {
+  font-weight: bold;
+}
